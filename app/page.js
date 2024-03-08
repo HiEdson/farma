@@ -207,7 +207,7 @@ export default function Home() {
 
       <div style={{ marginTop: "10%" }}>
         <h1 className="text-center mb-5">
-          Temos o que procura, a bom preço
+          Temos o que procura, a bom preço.
         </h1>
         <div className="container-fluid">
           <div className="row">
