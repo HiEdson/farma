@@ -38,7 +38,23 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  /* //colour based on the logo */
+  --cinza-claro: #d8d7d6;
+  --azul-claro:#308ea4;
+  --verde-abacate:#14650c;
+  --cinza-escuro:#6e726b;
+  --verde-alface:#8cc43f;
+  --terra:#260c09;
+  --azul-escuro:#2c6c71;
+  --verde-vivo:#0b9441;
+  --rosa-escuro:#a15c5c;
 }
+
+.icons{
+  color: var(--verde-vivo);
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -86,13 +102,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ 
 }
 
 a {
